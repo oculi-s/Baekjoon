@@ -1,3 +1,3 @@
 # BOJ_B5
 
-> BOJ (Baekjoon Online Judge) 브론즈5 문제풀이
+### [BOJ](https://www.acmicpc.net) 브론즈5 문제들
