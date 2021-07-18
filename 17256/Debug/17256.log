@@ -1,3 +1,0 @@
-﻿  17256.c
-C:\Users\kjunh\Desktop\백준\17256\17256.c(6,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  17256.vcxproj -> C:\Users\kjunh\Desktop\백준\17256\Debug\17256.exe

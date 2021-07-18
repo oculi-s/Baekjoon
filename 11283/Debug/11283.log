@@ -1,3 +1,0 @@
-﻿  11283.c
-C:\Users\kjunh\Desktop\백준\11283\11283.c(6,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  11283.vcxproj -> C:\Users\kjunh\Desktop\백준\11283\Debug\11283.exe
