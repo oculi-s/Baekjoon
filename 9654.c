@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-int main() {
+int main()
+{
 	printf("SHIP NAME      CLASS          DEPLOYMENT IN SERVICE\n");
 	printf("N2 Bomber      Heavy Fighter  Limited    21        \n");
 	printf("J-Type 327     Light Combat   Unlimited  1         \n");

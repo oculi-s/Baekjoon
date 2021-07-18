@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-int main() {
+int main()
+{
     printf("    8888888888  888    88888\n");
     printf("   88     88   88 88   88  88\n");
     printf("    8888  88  88   88  88888\n");
@@ -13,5 +13,5 @@ int main() {
     printf(" 888  888 888888888 88  88      88\n");
     printf("  88  88  88     88 88   88888888\n");
 
-	return 0;
+    return 0;
 }

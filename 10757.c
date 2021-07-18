@@ -2,18 +2,20 @@
 #include <stdlib.h>
 
 #define M 10010
-int main() {
-	char* a = malloc(sizeof(char) * M);
-	char* b = malloc(sizeof(char) * M);
+int main()
+{
+	char *a = malloc(sizeof(char) * M);
+	char *b = malloc(sizeof(char) * M);
 	scanf("%s %s", a, b);
 
 	int n = 0, m = 0;
-	while (a[++n]) {};
-	while (b[++m]) {};
+	while (a[++n]);
+	while (b[++m]);
 	int t, N = n > m ? n : m;
-	int* c = malloc(sizeof(int) * N);
+	int *c = malloc(sizeof(int) * N);
 	int L = N, u = 0;
-	while (N--) {
+	while (N--)
+	{
 		t = u;
 		if (n)
 			t += a[--n] - 48;
@@ -23,10 +25,8 @@ int main() {
 		u = t > 9;
 	}
 	if (u)
-		printf("%d",1);
+		printf("%d", 1);
 	while (L--)
 		printf("%d", *c++);
 	return 0;
 }
-
-// 9223372036854775807 9223372036854775808

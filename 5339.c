@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-int main() {
+int main()
+{
     printf("     /~\\\n");
     printf("    ( oo|\n");
     printf("    _\\=/_\n");
@@ -12,5 +12,5 @@ int main() {
     printf("|          |\n");
     printf("|          |\n");
     printf("|          |\n");
-	return 0;
+    return 0;
 }

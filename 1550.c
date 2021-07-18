@@ -1,12 +1,13 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-int main() {
+int main()
+{
 	char a[60];
-	char* s = "0123456789ABCDEF";
+	char *s = "0123456789ABCDEF";
 	scanf("%s", a);
 	int v = 0, i = 0, j = 0;
-	while (a[i]) {
+	while (a[i])
+	{
 		for (j = 0; j < 16; j++)
 			if (a[i] == s[j])
 				break;
