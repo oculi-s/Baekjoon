@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
     printf("    8888888888  888    88888\n");
     printf("   88     88   88 88   88  88\n");
     printf("    8888  88  88   88  88888\n");

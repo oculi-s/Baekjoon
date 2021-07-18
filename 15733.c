@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
-	printf("I'm Sexy");
-	return 0;
+int main() {
+    printf("I'm Sexy");
+    return 0;
 }
