@@ -1,3 +1,5 @@
-# BOJ_S4
+# BOJ
 
-### [BOJ](https://www.acmicpc.net) ?‹¤ë²?4 ë¬¸ì œ?“¤
+[BOJ](https://www.acmicpc.net)
+Baekjoon online judge Problems solved
+classified by tiers
