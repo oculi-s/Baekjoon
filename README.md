@@ -1,4 +1,4 @@
-# BOJ
+# Baekjoon
 
 [BOJ](https://www.acmicpc.net) Baekjoon online judge
 1) Korean largest PS community
