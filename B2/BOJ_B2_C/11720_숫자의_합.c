@@ -4,12 +4,12 @@
 int main() {
 	int n;
 	scanf("%d", &n);
+	char* s = malloc(sizeof(char) * n);
+	scanf("%s", s);
+	int a = 0;
 	for (int i = 0; i < n; i++) {
-		for (int j = 0; j < i+1; j++) {
-			printf("%s", "*");
-		}
-		printf("\n");
+		a += s[i] - 48;
 	}
-
+	printf("%d", a);
 	return 0;
 }
