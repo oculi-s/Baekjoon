@@ -3,8 +3,7 @@
 #define N 1001
 
 typedef struct {
-	short x;
-	short y;
+	short x, y;
 	bool b;
 	int d;
 } c;
