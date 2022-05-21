@@ -1,11 +1,10 @@
 let a = readLine()!.split(separator:" ").map{Int($0)!}
 let r = a[0], c = a[1], q = a[2]
-var m = Array(repeating:Array(repeating:0, count:c), count:r)
-var s = Array(repeating:Array(repeating:0, count:c), count:r)
+var m = [[Int]](), s = [[Int]]()
 
 for i in 0...r-1{
-  m[i] = readLine()!.split(separator:" ").map{Int($0)!}
-  s[i] = m[i]
+  m.append(readLine()!.split(separator:" ").map{Int($0)!})
+  s.append(m[i])
 }
 
 for i in 0...r-1{
