@@ -1,6 +1,5 @@
 var inp = readLine()!.split(separator:" ").map{Int($0)!}
 var n = inp[0], k = inp[1], d = true
-var a = Array(repeating:0, count:k+1)
 
 func rec(_ s:String,_ l:Int,_ b:Int,_ c:Int){
   if (d){
